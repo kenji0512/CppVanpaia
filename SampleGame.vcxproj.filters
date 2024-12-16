@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Task">
+      <UniqueIdentifier>{2b6cd376-58a2-4ef7-97b0-298c774fd446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Base">
+      <UniqueIdentifier>{b60bf587-e5ce-4b1b-92ad-035e2de924a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\State">
+      <UniqueIdentifier>{2e197e4f-2083-4fee-af10-5728bd247252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Base\Math">
+      <UniqueIdentifier>{beb4493d-060e-4e2a-9137-5744b1da3e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{491df1c7-40af-4c64-b513-76b97bd4b494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Base\Physics">
+      <UniqueIdentifier>{f05b55fa-9155-4d01-9d0d-064f64f1b27c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Base\Task">
+      <UniqueIdentifier>{7bef8059-6d6b-42e7-9aa0-181da0ece967}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Bullet.cpp">
+      <Filter>ソース ファイル\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player.cpp">
+      <Filter>ソース ファイル\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MainGameSequence.cpp">
+      <Filter>ソース ファイル\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MainGameState.cpp">
+      <Filter>ソース ファイル\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TitleState.cpp">
+      <Filter>ソース ファイル\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\State.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\Transform.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\GameMath.cpp">
+      <Filter>ソース ファイル\Base\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy.cpp">
+      <Filter>ソース ファイル\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\ThreadPool.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\Collider2D.cpp">
+      <Filter>ソース ファイル\Base\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\SysPhysics.cpp">
+      <Filter>ソース ファイル\Base\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\TaskBase.cpp">
+      <Filter>ソース ファイル\Base\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Foundation\TaskManager.cpp">
+      <Filter>ソース ファイル\Base\Task</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Bullet.h">
+      <Filter>ソース ファイル\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player.h">
+      <Filter>ソース ファイル\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MainGameSequence.h">
+      <Filter>ソース ファイル\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MainGameState.h">
+      <Filter>ソース ファイル\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TitleState.h">
+      <Filter>ソース ファイル\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\Singleton.h">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\State.h">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DxLib\DxLib.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\Transform.h">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\GameMath.h">
+      <Filter>ソース ファイル\Base\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy.h">
+      <Filter>ソース ファイル\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\ThreadPool.h">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GameType.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\Collider2D.h">
+      <Filter>ソース ファイル\Base\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\SysPhysics.h">
+      <Filter>ソース ファイル\Base\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\TaskManager.h">
+      <Filter>ソース ファイル\Base\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Foundation\TaskBase.h">
+      <Filter>ソース ファイル\Base\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\IGameObject.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
